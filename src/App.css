@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ce5bdf;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #282c34;
+  padding: 1em;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 2em;
+}
+
+.event {
+  background-color: rgb(227, 139, 216);
+  margin: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
